@@ -11,65 +11,67 @@
 </p>
 
 <h3 align="center">
-  <a href="https://github.com/Losif24/chimera-releases/releases/latest">⬇️ Descargar Chimera para Windows</a>
+  <a href="https://github.com/Losif24/chimera-releases/releases/latest">⬇️ Descargar para Windows</a>
 </h3>
 
-Chimera te enseña cómo está hecho un proyecto de código y te deja tocarlo con ese mapa delante: qué depende de qué, por dónde se entra, qué se rompe si cambias un archivo… y un editor que ya lo sabe.
+Chimera es un entorno de escritorio para entender y mantener proyectos de software. Indexa el código, muestra cómo se relacionan sus archivos y te permite editarlo con esa información siempre a mano, para saber qué afecta a qué antes de tocar nada.
 
-## Tres programas, una sola casa
+## Aplicaciones
 
-| Programa | Qué hace |
+| Aplicación | Descripción |
 |---|---|
-| **Launcher** | Tus apps, la biblioteca de proyectos (con sus archivos por dentro), novedades y ajustes. Se actualiza solo. |
-| **CODE** · *Edita con contexto* | El editor que conoce tu proyecto: pestañas, ir a definición, referencias y una terminal con tu perfil y los comandos de cada carpeta a mano. |
-| **ANÁLISIS** · *El mapa de tu código* | Indexa un proyecto y dibuja sus dependencias: capas, ciclos, el impacto de un cambio y el riesgo de cada archivo, en un grafo que se recorre a golpe de clic. |
+| **Launcher** | El punto de partida. Desde aquí abres las demás aplicaciones, gestionas tus proyectos y sus archivos, y recibes las actualizaciones. |
+| **CODE** | Editor de código con pestañas, navegación a definiciones y referencias, y una terminal integrada que recuerda los comandos de cada carpeta. |
+| **ANÁLISIS** | Grafo interactivo de dependencias. Muestra las capas del proyecto, los ciclos, el impacto de cada cambio y el riesgo de cada archivo. |
 
-## Así se ve
+## Visualización
 
 <table>
   <tr>
-    <td width="50%"><img src="escaparate/launcher.png" alt="El launcher"><p align="center"><sub><b>El launcher</b></sub></p></td>
-    <td width="50%"><img src="escaparate/code.png" alt="CODE"><p align="center"><sub><b>CODE</b></sub></p></td>
+    <td width="50%"><img src="escaparate/launcher.png" alt="Launcher"><p align="center"><sub><b>Launcher</b></sub></p></td>
+    <td width="50%"><img src="escaparate/code.png" alt="Editor CODE"><p align="center"><sub><b>Editor CODE</b></sub></p></td>
   </tr>
   <tr>
-    <td width="50%"><img src="escaparate/analisis.png" alt="ANÁLISIS"><p align="center"><sub><b>ANÁLISIS</b></sub></p></td>
-    <td width="50%"><img src="escaparate/proyecto.png" alt="La biblioteca por dentro"><p align="center"><sub><b>La biblioteca por dentro</b></sub></p></td>
+    <td width="50%"><img src="escaparate/analisis.png" alt="Grafo de dependencias en ANÁLISIS"><p align="center"><sub><b>Grafo de dependencias en ANÁLISIS</b></sub></p></td>
+    <td width="50%"><img src="escaparate/proyecto.png" alt="Explorador de proyectos"><p align="center"><sub><b>Explorador de proyectos</b></sub></p></td>
   </tr>
 </table>
 
-## Lo que trae
+## Características
 
-- **Abre al instante**: con el launcher abierto, CODE queda preparado de fondo y un archivo se ve en medio segundo.
-- **Desde cualquier sitio**: `ch`, `ch-code .` y `ch-an .` en <kbd>Win</kbd> + <kbd>R</kbd> o en la terminal, y «Abrir con Chimera CODE» en el clic derecho del Explorador.
-- **La biblioteca por dentro**: recorre, renombra, copia, pega o elimina archivos de un proyecto sin salir del launcher.
-- **Un editor cómodo**: sangría automática, pares que se cierran, guías de sangría discretas, atajos a tu gusto (la terminal, con <kbd>Ctrl</kbd> + <kbd>Mayús</kbd> + <kbd>Ñ</kbd>) y autoguardado.
-- **Informes que se copian**: resumen del proyecto, impacto, flujo y un `MAPA.md` para dejar en el repositorio.
-- **Actualizaciones seguras**: comprueba la huella del instalador y deja volver a una versión anterior.
+- **Apertura inmediata.** Con el launcher abierto, CODE se mantiene listo en segundo plano y los archivos se abren en menos de un segundo.
+- **Integración con Windows.** Comandos `ch`, `ch-code` y `ch-an` disponibles en <kbd>Win</kbd> + <kbd>R</kbd> y en la terminal, además de accesos directos en el menú contextual del Explorador.
+- **Gestión de proyectos.** Navega por los archivos de cada proyecto y renómbralos, cópialos o elimínalos sin salir del launcher.
+- **Editor pensado para el día a día.** Sangría automática, cierre de paréntesis y comillas, guías de sangría, atajos configurables y guardado automático. La terminal se abre con <kbd>Ctrl</kbd> + <kbd>Mayús</kbd> + <kbd>Ñ</kbd>.
+- **Informes exportables.** Resumen del proyecto, análisis de impacto, flujo de dependencias y un `MAPA.md` listo para incluir en el repositorio.
+- **Actualizaciones verificadas.** Cada instalador se comprueba con su huella SHA-256 y siempre es posible volver a una versión anterior.
 
-## Entiende estos lenguajes
+## Lenguajes compatibles
 
 <p align="center"><img src="https://skillicons.dev/icons?i=cpp,py,cs,js,ts,java,kotlin,go,rust,swift,dart,php,ruby&perline=13" alt="lenguajes"></p>
 <p align="center"><sub>C/C++ · Python · C# · JavaScript · TypeScript · Java · Kotlin · Go · Rust · Swift · Dart · PHP · Ruby</sub></p>
 
-## Hecho con
+## Tecnologías
 
 <p align="center"><img src="https://skillicons.dev/icons?i=py,qt,windows" alt="Python, Qt y Windows"></p>
 <p align="center"><sub>Python 3.13 · QML / Qt Quick (PySide6) · Inno Setup</sub></p>
 
-## Instalar
+## Instalación
 
-1. Descarga el último `ChimeraSetup-x.y.z.exe` de [Releases](https://github.com/Losif24/chimera-releases/releases/latest).
-2. Ábrelo: se instala para tu usuario (en `%LOCALAPPDATA%\Programs\Chimera`), sin pedir permisos de administrador.
-3. Listo. A partir de ahí el launcher avisa y se actualiza solo.
+1. Descarga la última versión de `ChimeraSetup-x.y.z.exe` desde [Releases](https://github.com/Losif24/chimera-releases/releases/latest).
+2. Ejecuta el instalador. Chimera se instala para tu usuario en `%LOCALAPPDATA%\Programs\Chimera` y no requiere permisos de administrador.
+3. A partir de ese momento, el launcher te avisará de cada nueva versión y se encargará de instalarla.
 
-Requisitos: Windows 10 u 11 de 64 bits.
+**Requisitos:** Windows 10 u 11 de 64 bits.
 
-| Comando | Qué abre |
+## Comandos
+
+| Comando | Acción |
 |---|---|
-| `ch` | el launcher |
-| `ch-code .` · `ch-code archivo.py` | CODE con esa carpeta, o sólo ese archivo |
-| `ch-an .` · `ch-an MiProyecto` | ANÁLISIS con ese proyecto |
+| `ch` | Abre el launcher |
+| `ch-code .` · `ch-code archivo.py` | Abre CODE con la carpeta actual o solo con ese archivo |
+| `ch-an .` · `ch-an MiProyecto` | Abre ANÁLISIS con ese proyecto |
 
 ---
 
-<p align="center"><sub>Arte: grabados de dominio público — «Belerofonte mata a la Quimera», Theodoor van Thulden según Rubens (1641, Rijksmuseum) y «Belerofonte en Pegaso» (1878).<br>Hecho por Losif24.</sub></p>
+<p align="center"><sub>Las ilustraciones proceden de grabados de dominio público: «Belerofonte mata a la Quimera», de Theodoor van Thulden según Rubens (1641, Rijksmuseum), y «Belerofonte en Pegaso» (1878).<br>Desarrollado por Losif24.</sub></p>
