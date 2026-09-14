@@ -21,19 +21,23 @@ Chimera es un entorno de escritorio para entender y mantener proyectos de softwa
 | Aplicación | Descripción |
 |---|---|
 | **Launcher** | El punto de partida. Desde aquí abres las demás aplicaciones, gestionas tus proyectos y sus archivos, y recibes las actualizaciones. |
-| **CODE** | Editor de código con pestañas, navegación a definiciones y referencias, y una terminal integrada que recuerda los comandos de cada carpeta. |
+| **CODE** | Editor de código con los colores de un IDE: git en el margen, plegado de bloques, varios cursores, búsqueda y reemplazo en todo el proyecto, terminal integrada y un depurador de Python que explica cada error. |
 | **ANÁLISIS** | Grafo interactivo de dependencias. Muestra las capas del proyecto, los ciclos, el impacto de cada cambio y el riesgo de cada archivo. |
 
 ## Visualización
 
 <table>
   <tr>
-    <td width="50%"><img src="escaparate/launcher.png" alt="Launcher"><p align="center"><sub><b>Launcher</b></sub></p></td>
-    <td width="50%"><img src="escaparate/code.png" alt="Editor CODE"><p align="center"><sub><b>Editor CODE</b></sub></p></td>
+    <td width="50%"><img src="escaparate/code.png" alt="CODE · editor con git, plegado y esquema"><p align="center"><sub><b>CODE · editor con git, plegado y esquema</b></sub></p></td>
+    <td width="50%"><img src="escaparate/depurar.png" alt="CODE · ejecutar y depurar Python"><p align="center"><sub><b>CODE · ejecutar y depurar Python</b></sub></p></td>
   </tr>
   <tr>
-    <td width="50%"><img src="escaparate/analisis.png" alt="Grafo de dependencias en ANÁLISIS"><p align="center"><sub><b>Grafo de dependencias en ANÁLISIS</b></sub></p></td>
-    <td width="50%"><img src="escaparate/proyecto.png" alt="Explorador de proyectos"><p align="center"><sub><b>Explorador de proyectos</b></sub></p></td>
+    <td width="50%"><img src="escaparate/reemplazar.png" alt="CODE · buscar y reemplazar en todo el proyecto"><p align="center"><sub><b>CODE · buscar y reemplazar en todo el proyecto</b></sub></p></td>
+    <td width="50%"><img src="escaparate/analisis.png" alt="ANÁLISIS · grafo de dependencias"><p align="center"><sub><b>ANÁLISIS · grafo de dependencias</b></sub></p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="escaparate/launcher.png" alt="Launcher"><p align="center"><sub><b>Launcher</b></sub></p></td>
+    <td width="50%"><img src="escaparate/proyecto.png" alt="Launcher · explorador de proyectos"><p align="center"><sub><b>Launcher · explorador de proyectos</b></sub></p></td>
   </tr>
 </table>
 
@@ -42,7 +46,9 @@ Chimera es un entorno de escritorio para entender y mantener proyectos de softwa
 - **Apertura inmediata.** Con el launcher abierto, CODE se mantiene listo en segundo plano y los archivos se abren en menos de un segundo.
 - **Integración con Windows.** Comandos `ch`, `ch-code` y `ch-an` disponibles en <kbd>Win</kbd> + <kbd>R</kbd> y en la terminal, además de accesos directos en el menú contextual del Explorador.
 - **Gestión de proyectos.** Navega por los archivos de cada proyecto y renómbralos, cópialos o elimínalos sin salir del launcher.
-- **Editor pensado para el día a día.** Sangría automática, cierre de paréntesis y comillas, guías de sangría, atajos configurables y guardado automático. La terminal se abre con <kbd>Ctrl</kbd> + <kbd>Mayús</kbd> + <kbd>Ñ</kbd>.
+- **Ejecutar y depurar Python.** <kbd>F5</kbd> ejecuta el archivo con el Python que ya tienes instalado e instala las librerías que falten. Si hay un error, se pausa en la línea y explica en español qué pasó; puntos de parada, paso a paso y variables a la vista.
+- **Git y cambios grandes sin miedo.** Las líneas nuevas y cambiadas se marcan en el margen y se revierten con un clic; reemplazar en todo el proyecto enseña cada coincidencia antes de tocar nada y se puede deshacer.
+- **Editor pensado para el día a día.** Plegado de bloques, varios cursores, visor de imágenes, sangría automática, cierre de paréntesis y comillas, guías de sangría, atajos configurables y guardado automático. La terminal se abre con <kbd>Ctrl</kbd> + <kbd>Mayús</kbd> + <kbd>Ñ</kbd>.
 - **Informes exportables.** Resumen del proyecto, análisis de impacto, flujo de dependencias y un `MAPA.md` listo para incluir en el repositorio.
 - **Actualizaciones verificadas.** Cada instalador se comprueba con su huella SHA-256 y siempre es posible volver a una versión anterior.
 
