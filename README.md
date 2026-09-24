@@ -54,8 +54,8 @@ Chimera es un entorno de escritorio para entender y mantener proyectos de softwa
 
 ## Lenguajes compatibles
 
-<p align="center"><img src="https://skillicons.dev/icons?i=cpp,py,cs,js,ts,java,kotlin,go,rust,swift,dart,php,ruby&perline=13" alt="lenguajes"></p>
-<p align="center"><sub>C/C++ · Python · C# · JavaScript · TypeScript · Java · Kotlin · Go · Rust · Swift · Dart · PHP · Ruby</sub></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=cpp,py,cs,js,ts,java,kotlin,go,rust,swift,dart,php,ruby,qt&perline=14" alt="lenguajes"></p>
+<p align="center"><sub>C/C++ · Python · C# · JavaScript · TypeScript · Java · Kotlin · Go · Rust · Swift · Dart · PHP · Ruby · QML</sub></p>
 
 ## Tecnologías
 
