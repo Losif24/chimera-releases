@@ -29,6 +29,14 @@ Chimera es un entorno de escritorio para entender y mantener proyectos de softwa
 <table>
   <tr>
     <td width="50%"><img src="escaparate/code.png" alt="CODE · editor con git, plegado y esquema"><p align="center"><sub><b>CODE · editor con git, plegado y esquema</b></sub></p></td>
+    <td width="50%"><img src="escaparate/dividido.png" alt="CODE · dos archivos a la vez y selección en columna"><p align="center"><sub><b>CODE · dos archivos a la vez y selección en columna</b></sub></p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="escaparate/avisos.png" alt="CODE · avisa al escribir si rompes una regla del proyecto"><p align="center"><sub><b>CODE · avisa al escribir si rompes una regla del proyecto</b></sub></p></td>
+    <td width="50%"><img src="escaparate/historia.png" alt="CODE · la historia de cada archivo y qué cambió en cada commit"><p align="center"><sub><b>CODE · la historia de cada archivo y qué cambió en cada commit</b></sub></p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="escaparate/compilar.png" alt="CODE · compilar cualquier proyecto y saltar a cada error"><p align="center"><sub><b>CODE · compilar cualquier proyecto y saltar a cada error</b></sub></p></td>
     <td width="50%"><img src="escaparate/depurar.png" alt="CODE · ejecutar y depurar Python"><p align="center"><sub><b>CODE · ejecutar y depurar Python</b></sub></p></td>
   </tr>
   <tr>
@@ -36,7 +44,15 @@ Chimera es un entorno de escritorio para entender y mantener proyectos de softwa
     <td width="50%"><img src="escaparate/analisis.png" alt="ANÁLISIS · grafo de dependencias"><p align="center"><sub><b>ANÁLISIS · grafo de dependencias</b></sub></p></td>
   </tr>
   <tr>
+    <td width="50%"><img src="escaparate/capas.png" alt="ANÁLISIS · capas del proyecto: en rojo, lo que va contra la arquitectura"><p align="center"><sub><b>ANÁLISIS · capas del proyecto: en rojo, lo que va contra la arquitectura</b></sub></p></td>
+    <td width="50%"><img src="escaparate/impacto.png" alt="ANÁLISIS · qué se rompe si tocas un archivo"><p align="center"><sub><b>ANÁLISIS · qué se rompe si tocas un archivo</b></sub></p></td>
+  </tr>
+  <tr>
     <td width="50%"><img src="escaparate/launcher.png" alt="Launcher"><p align="center"><sub><b>Launcher</b></sub></p></td>
+    <td width="50%"><img src="escaparate/novedades.png" alt="Launcher · actualizaciones verificadas y vuelta a una versión anterior"><p align="center"><sub><b>Launcher · actualizaciones verificadas y vuelta a una versión anterior</b></sub></p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="escaparate/biblioteca.png" alt="Launcher · biblioteca de proyectos"><p align="center"><sub><b>Launcher · biblioteca de proyectos</b></sub></p></td>
     <td width="50%"><img src="escaparate/proyecto.png" alt="Launcher · explorador de proyectos"><p align="center"><sub><b>Launcher · explorador de proyectos</b></sub></p></td>
   </tr>
 </table>
